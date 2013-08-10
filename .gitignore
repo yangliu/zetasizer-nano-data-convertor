@@ -10,5 +10,10 @@ lib-cov
 pids
 logs
 results
+js/main.js
+js/zetasizer.js
+node_modules
+release
+SDK
 
 npm-debug.log

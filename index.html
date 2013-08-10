@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Data Convertor for Malvern Zetasizer Nano</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+    <body>
+        <div class="viewports">
+            <ul id="slides">
+                <li id="getfile">
+                    <div id="dropzone">
+                        <p><span class="middle">Drag &amp; drop your data file here.</span></p>
+                        <div id="signature">made by <a href="http://yangliu.name" class="external-link">Yang Liu</a> ♥ <a href="http://www.seas.ucla.edu/~lu/" class="external-link">Lu Lab, UCLA</a></div>
+                    </div>
+                </li>
+                <li id="parameters">
+                    <div id="records">
+                        <table id="record-table" cellpadding="0" cellspacing="0">
+                        </table>                                                
+                    </div>
+                    <div id="record-info">
+                        <div class="r-info-title">
+                            <span id="data-length">380 records found (Size: 200; Zeta 180).</span><br />
+                            Select <a class="record-sel-btn" href="#" rel="all">all records</a>, <a class="record-sel-btn" href="#" rel="size">size only</a> (<a class="record-sel-btn" href="#" rel="size-number">N</a>|<a class="record-sel-btn" href="#" rel="size-intensity">I</a>|<a class="record-sel-btn" href="#" rel="size-volume">V</a>), <a class="record-sel-btn" href="#" rel="zeta">zeta only</a>, or <a class="record-sel-btn" href="#" rel="none">none</a>.<br />
+                            <span class="small">Export file:
+                                <input type="radio" id="exp-merged" name="export-sel" class="radio-export" value="merged" checked> <label for="exp-merged">Merged</label>&nbsp;&nbsp;
+                                <input type="radio" id="exp-separate" name="export-sel" class="radio-export" value="separate"> <label for="exp-separate">Separated</label>&nbsp;&nbsp;
+                                <input type="radio" id="exp-permeasurement" name="export-sel" class="radio-export" value="permeasurement"> <label for="exp-permeasurement">Per measurement</label>
+                            </span>
+                        </div>
+                        <div class="r-export">
+                            <a href="#" class="btn" id="generate-data">Generate</a> or <a href="#" class="start-over">start over</a>
+                        </div>
+                    </div>
+                </li>
+                <li id="done">
+                    <h2>Success!</h2>
+                    <p class="description">Data files have been generated, you can open them with Excel, or import them with graphing tools (i.e., Graphpad Prism).</p>
+                    <p class="align-center">
+                        <a class="btn" id="reveal-in-finder" href="#">Reveal them in Finder</a>
+                        <a class="btn start-over" href="#">Process another file</a>
+                    </p>
+                </li>
+                <li id="failed">
+                    <h2>Failed to process the data.</h2>
+                    <p class="description">Make sure export your data with the correct export template.</p>
+                    <p class="description">Download export template (<a href="Complete%20Export.edf" class="im">Complete Export</a>).</p>
+                    <p class="align-center">
+                        <a href="#" class="btn start-over">Start over</a>
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+        <script src="js/vendor/jquery-1.10.1.min.js"></script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

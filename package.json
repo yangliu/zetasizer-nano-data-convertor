@@ -1,0 +1,30 @@
+{
+	"main": "index.html",
+	"name": "zetasizer-nano-data-convertor",
+	// "name": "Zetasizer Nano Data Convertor",
+	"version": "0.1.0",
+	"author": "Yang Liu <i@yangliu.name>",
+	"description": "A helper app for processing the ZetaSizer exported data",
+	"contributors": [
+		{"name": "Yang Liu", "email": "i@yangliu.name"}
+	],
+	"repository": {
+    	"type": "git",
+    	"url": "https://github.com/yangliu/"
+ 	},
+  	"keywords": [
+    	"zetasizer", "node-webkit"
+ 	],
+ 	"dependencies" : {
+ 		"async": "*"
+ 	},
+ 	"window": {
+ 		"title": "Data Convertor for Malvern Zetasizer Nano",
+ 		"toolbar": false,
+ 		"icon": "zs.ico",
+ 		"width": 600,
+ 		"height": 350,
+ 		"min_width": 600,
+ 		"min_height": 350	
+ 	}
+}

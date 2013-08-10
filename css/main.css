@@ -1,0 +1,495 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Oxygen Light'), local('Oxygen-Light'), url(-1odZCVpKpOs9pNLq607frO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oxygen'), local('Oxygen-Regular'), url(wtnQihq4aKLdY8pCM6qpG-vvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Oxygen Bold'), local('Oxygen-Bold'), url(fSUtikcZd7PHZK0t2hzTebO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    min-width: 600px;
+    min-height: 350px;
+}
+.viewports {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 20px;
+  color: white;
+  background: #0080ff;
+  font-size: 26px;
+  letter-spacing: 3px;
+  text-transform: lowercase;
+  margin: 10px;
+}
+.btn:hover {
+  background: #0743a1;
+}
+.align-center {
+  text-align: center;
+}
+#slides {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  background: #dbe0e9;
+  font-weight: 300;
+}
+#slides li {
+  float: left;
+  height: 100%;
+  overflow: hidden;
+}
+#slides li h2 {
+  font-size: 36px;
+  font-weight: 400;
+  margin: 0.3em 0;
+}
+#slides li p {
+  margin: 0.5em 0;
+}
+#slides li .description {
+  font-size: 24px;
+}
+/*#getfile {
+  background: #66ffcc;
+}
+#parameters {
+  background: #66ccff;
+}
+#done {
+  background: #ffcc66;
+}
+*/
+#done {
+  background: #e4ffe2;
+  color: #3ba150;
+}
+#done h2, #done p {
+  padding: 0 30px;
+}
+#done p a {
+  color: #3ba150;
+  text-decoration: none;
+}
+#done p a:hover {
+  background: #3ba150;
+  color: white;
+}
+#done .btn {
+  color: white;
+  background: #3ba150;
+}
+#done .btn:hover {
+  background: #24672d;
+}
+
+#failed {
+  background: #ffdbdb;
+  color: #fd6777;
+}
+#failed h2, #failed p {
+  padding: 0 30px;
+}
+#failed p a {
+  color: #fd6777;
+  text-decoration: none;
+}
+#failed p a:hover {
+  background: #fd6777;
+  color: white;
+}
+#failed .btn {
+  color: white;
+  background: #fc4d54;
+}
+#failed .btn:hover {
+  background: #cd2b38;
+}
+#dropzone {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#signature {
+  padding-right: 20px;
+  padding-bottom: 3px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  font-size: 10px;
+  color: #a6a6a6;
+  z-index: 100;
+}
+#signature a {
+  color: #a6a6a6;
+  text-decoration: none;
+}
+#signature a:hover {
+  text-decoration: underline;
+}
+#slides li #dropzone p {
+  margin: 20px;
+  border: 5px dashed #9a9a9a;
+  border-radius: 15px;
+  width: auto;
+  height: auto;
+  display: block;
+  vertical-align: middle;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  white-space: nowrap;
+  letter-spacing: 3px;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  color: #9a9a9a;
+}
+#slides li #dropzone.hover {
+  background: #e6fff7;
+}
+#slides li #dropzone.hover p {
+  border-color: #35916d;
+  color: #35916d;
+}
+#parameters {
+  position: relative;
+}
+#records {
+  overflow: auto;
+  font-size: 12px;
+}
+#record-info {
+  position: absolute;
+  width: 100%;
+  height: 68px;
+  overflow: hidden;
+  bottom: 0;
+  left: 0;
+  border-top: 2px solid #8a9da8;
+  font-size: 16px;
+}
+.r-info-title {
+  float: left;
+  padding: 5px 0 5px 20px;
+  font-size: 14px;
+  color: #444;
+}
+.r-info-title a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 400;
+}
+.r-info-title a:hover {
+  background: #555;
+  color: white;
+}
+.r-info-title .small {
+  font-size: 11px;
+}
+.r-export {
+  vertical-align: middle;
+  float: right;
+  padding: 15px 20px 14px 0;
+  font-size: 11px;
+  color: #666;
+  height: 40px;
+}
+.r-export a {
+  text-decoration: none;
+  color: #666;
+}
+.r-export a:hover {
+  background: #666;
+  color: white;
+}
+.r-export .btn {
+  color: white;
+  font-size: 16px;
+  margin: 0;
+  margin-right: 8px;
+}
+.r-export .btn:hover {
+  background: #0743a1;
+}
+#record-table {
+  width: 100%;
+}
+tr {
+  padding: 2px 0;
+  width: 100%;
+}
+td {
+  vertical-align: middle;
+  color: #444;
+}
+tr:nth-child(even) {
+  background: #e5f6ff;
+}
+tr.selected {
+  background: #ffdedf;
+}
+.sel {
+  width: 40px;
+  text-align: center;
+}
+.name {
+  width: 20%;
+  font-weight: 400;
+}
+.date {
+  width: 15%;
+}
+.info {
+  width: auto;
+}
+.ope {
+  width: 20%;
+  padding: 0 10px 0 10px;
+}
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
