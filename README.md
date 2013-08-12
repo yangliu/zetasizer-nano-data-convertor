@@ -7,7 +7,7 @@ Backed with node-webkit, the code should be able to run smoothly on any platform
 
 ## Pre-built version
 
-Honest, I know most of you who need this code have no idea what is Node.js and what is Webkit, so I decide to offer a pre-built version for Mac users. For Mac lo♥ers, you can download it here.
+I know most of you who need this code have no idea what is Node.js and what is Webkit, so I decide to offer a pre-built version for Mac users. For Mac lo♥ers, you can download it here.
 
 [Download Zetasizer Nano Data Convertor for OS X 10.6+](http://liuy.me/files/zndc.zip) 
 
